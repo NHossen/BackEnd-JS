@@ -5,7 +5,8 @@
 3.init npm //Pakage
 4.install express pakage// npm i express
 5.Make server application
-6.start server
+6. Server Should be able to handle "/" "/contact" and "/About" endPoinnts
+7.start server
 */
 
 import express from "express";//Server Application//Install Express .5
@@ -20,6 +21,8 @@ const port=3000;//Server Application  .5
 4.patch //Update Request
 5.delete
 */
+
+//Nodemon uses for automatically page update
 
 //Get request to server
 app.get("/", (req,res)=>{
